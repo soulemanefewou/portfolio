@@ -5,6 +5,9 @@ import "./App.css";
 import Header from "./components/layout/Header";
 import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
+import Skills from "./components/sections/Skills";
+import Projects from "./components/sections/Projects";
+import Education from "./components/sections/Education";
 
 function App() {
   return (
@@ -16,6 +19,15 @@ function App() {
         </div>
         <div id="about">
           <About />
+        </div>
+        <div id="skills">
+          <Skills />
+        </div>
+        <div id="projets">
+          <Projects />
+        </div>
+        <div id="education">
+          <Education />
         </div>
       </main>
     </div>

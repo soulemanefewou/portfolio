@@ -19,7 +19,7 @@ const Hero = () => {
                 <h1 className='text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6'>
                     Je suis{" "}
                     <span className='bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent'>
-                        Maxime Doaw
+                        Njayou Fewou Soulemane
                     </span>
                 </h1>
                 <p className='text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed'>
@@ -38,14 +38,14 @@ const Hero = () => {
                 </div>
                 {/* Social links*/}
                 <div className='flex justify-center gap-6'>
-                    <a href="https://github.com/maximedoaw"
+                    <a href="https://github.com/soulemanefewou"
                        target='_blank'
                        rel='noopener noreferrer'
                        className='text-gray-600 dark:text-gray-400 hover:text-gray-600 transition-colors p-3 hover:bg-white dark:hover:bg-gray-800 rounded-full'>
                         <Github className='w-6 h-6'/>
                        </a>
 
-                    <a href="https://github.com/maximedoaw"
+                    <a href="https://github.com/soulemanefewou"
                        target='_blank'
                        rel='noopener noreferrer'
                        className='text-gray-600 dark:text-gray-400 hover:text-gray-600 transition-colors p-3 hover:bg-white dark:hover:bg-gray-800 rounded-full'>
