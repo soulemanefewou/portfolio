@@ -8,6 +8,8 @@ import About from "./components/sections/About";
 import Skills from "./components/sections/Skills";
 import Projects from "./components/sections/Projects";
 import Education from "./components/sections/Education";
+import Experience from "./components/sections/Experience";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -29,7 +31,11 @@ function App() {
         <div id="education">
           <Education />
         </div>
+        <div id="experience">
+          <Experience />
+        </div>
       </main>
+      <Footer />
     </div>
   );
 }
